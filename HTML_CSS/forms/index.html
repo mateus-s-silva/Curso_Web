@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        label {
+            display: block;
+        }
+
+        form {
+           font-weight: bold;
+           font-size: large;
+        }
+
+        .form-title {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+
+        <p class="form-title">O nosso formulário</p>
+
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required    >
+        </p>
+
+        <p>
+            <label for="dev">Sou um dev</label>
+            <input type="checkbox" id="dev" value="yes">
+        </p>
+
+        <p>
+            Gênero:<br>
+            
+            <label for="fem">Feminino</label>
+            <input type="radio" id="fem" value="feminino" name="genero">
+
+            <label for="masc">Masculino</label>
+            <input type="radio" id="masc" value="masculino" name="genero">
+
+            <label for="indef">Prefiro não informar</label>
+            <input type="radio" id="indef" value="outro" name="genero">
+        </p>
+
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">
+        </p>
+
+        <p>
+            <label for="datetime">Data-Hora:</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+        </p>
+
+        <p>
+            <label for="time">Hora:</label>
+            <input type="time" name="time" id="time">
+        </p>
+
+        <p>
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+        </p>
+
+        <p>
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="password" id="password">
+        </p>
+
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" list="tickmarks" id="range" name="range">
+
+                <datalist id="tickmarks">
+                    <option value="0" label="0%">
+                    <option value="10">
+                    <option value="20">
+                    <option value="30">
+                    <option value="40">
+                    <option value="50" label="50%">
+                    <option value="60">
+                    <option value="70">
+                    <option value="80">
+                    <option value="90">
+                    <option value="100" label="100%">
+                </datalist>
+        </p>
+
+        <p>
+            <label for="select">Selecione alguma opção:</label>
+            <select name="select" id="select">
+                <optgroup label="Grupo 1">
+                    <option value="valor-um">Valor 1</option>
+                    <option value="valor-dois">Valor 2</option>
+                    <option value="valor-tres">Valor 3</option>
+                    <option value="valor-quatro">Valor 4</option>
+                    <option value="none" selected>Nenhum</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="text-area">Text Area</label>
+            <textarea name="text-area" id="text-area" cols="15" rows="5"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+        </p>
+
+    </form>
+
+</body>
+</html>

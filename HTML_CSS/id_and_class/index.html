@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mylenne</title>
+
+    <style>
+        h1 {
+            background: purple;
+        }
+
+        h1 {
+            background-color: azure;
+        }
+
+        p {
+            background-color: bisque;
+        }
+
+        #cabecalho-um {
+            background-color: blueviolet;
+        }
+
+        #cabecalho-um {
+            background-color: aliceblue;
+        }
+        
+        .bold {
+            color: aliceblue;
+        }
+    </style>
+
+    <!- Caso houvesse outro seletor h1(ou outro mesmo seletor)
+        indicando uma cor diferente da purple, ele iria sobres-
+        crever, pois prevale-se o que vem depois ->
+
+    <!- ID possui mais especificidade que CLASS ->
+</head>
+
+<body>
+    <h1 id="cabecalho-um" class="fundo-vermelho borde-esquerda">
+        Vai vir aqui
+    </h1>
+    <h1 id="cabecalho-dois" class="fundo-vermelho ">
+        Vai vir aqui
+    </h1>
+    <p>Um texto <b class="bold">qualquer</b></p>
+    <p>Um texto <b class="bold">qualquer</b></p>
+    <p>Um texto <b class="bold">qualquer</b></p>
+</body>
+</html>
