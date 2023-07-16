@@ -3,6 +3,23 @@
     padding: 0;
 }
 
+
+.pai h1+p {
+    color: red;
+}
+
+.pai h1~p {
+    color: #839;
+}
+
+.pai .one~.two {
+    color: blueviolet;
+}
+
+[meu-atributo = "teste"] {
+    color: red;
+}
+
 /* h1 {
     margin-left: 12px;
 }
@@ -11,5 +28,31 @@ body div section p,
 body div section h1 {
     margin-left: 10px;
     color: darkred;
-} */
+}
 
+.color-blue.margin-12 {
+    color: darkblue;
+    margin: 12px;
+}
+
+.main-content h2.teste  {
+    font-style: italic;
+    background-color: aliceblue;
+    color: red;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+
+ Child selector
+
+.pai > .filha{
+    color: blue;
+}
+
+*/
+
+ 
