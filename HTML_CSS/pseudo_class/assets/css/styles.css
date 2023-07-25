@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch:expanded ;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.teste {
+    display: flex;
+}
+
+.teste:hover {
+    background-color: azure;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 100px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: purple;
+}
+
+div {
+    padding: 20px 100px 0px 100px;
+}
+
+.newsletter h2{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter input:focus {
+    box-shadow: 0 0 5px rgba(0, 0 , 0, 0.5); 
+    outline: none;
+    border: 1px solid black;
+}
+
