@@ -37,6 +37,13 @@ nav ul{
     gap: 100px;
 }
 
+nav ul li:nth-child(even){
+    background-color: purple;
+}
+nav ul li:nth-child(odd){
+    background-color: pink;
+}
+
 a:link {
     color: blue;
 }
@@ -62,5 +69,9 @@ div {
     box-shadow: 0 0 5px rgba(0, 0 , 0, 0.5); 
     outline: none;
     border: 1px solid black;
+}
+
+p:not(.meio){
+    color: blue;
 }
 
