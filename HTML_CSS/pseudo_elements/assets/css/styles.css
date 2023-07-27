@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li::after{
+    content: ' - ';
+    color:violet;
+}
+
+ul li::first-letter{
+    color:blue;
+}
+
+::placeholder {
+    color: purple;
+    font-size: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
