@@ -1,0 +1,23 @@
+*  {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+ID 
+
+Classes, Atributos e Pseudo-classes
+
+Elementos e pseudo-elementos
+
+!important : this is strong as f
+*/
+
+#p {
+    color: blue;
+}
+
+.p.teste.teste2 {
+    color: red;
+}
